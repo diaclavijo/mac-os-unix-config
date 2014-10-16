@@ -3,6 +3,7 @@ export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:/Applications/RubyMine.app/Contents/MacOS/" # Add RubyMine to path
 
 function title {
     echo -ne "\033]0;"$*"\007"
