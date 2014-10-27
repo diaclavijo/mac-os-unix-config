@@ -21,4 +21,5 @@ if defined? Hirb
   end
 
   Hirb.enable
+  extend Hirb::Console
 end
